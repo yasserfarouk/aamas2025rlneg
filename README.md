@@ -62,24 +62,24 @@ provides a new and interesting challenge for MARL and RL researchers because it
 is mapped into a group of non-zero-sum games with incomplete information which
 provides a middle ground between single-environment and General game-play
 environments
-[\[mohammad2024automated\]](https://link.springer.com/chapter/10.1007/978-3-031-77367-9_2){:target="_blank"}.
+[\[mohammad2024automated\]](https://link.springer.com/chapter/10.1007/978-3-031-77367-9_2).
 
 Moreover, the tutorial is designed to be a true-tutorial rather than a
 summarization of recent results. We provide foundational knowledge in automated
 negotiation (and to a lesser extent RL and MARL) as well as recent results in
 the area. But the whole tutorial is accompanied by a hands-on demonstration
 that shows every concept in action using de-facto standard libraries for RL
-(Gymnasium [\[gym\]](https://gymnasium.farama.org/){:target="_blank"}), MARL (PettingZoo
-[\[terry2021pettingzoo\]](https://pettingzoo.farama.org/){:target="_blank"}) and automated
+(Gymnasium [\[gym\]](https://gymnasium.farama.org/)), MARL (PettingZoo
+[\[terry2021pettingzoo\]](https://pettingzoo.farama.org/)) and automated
 negotiation (NegMAS). Moreover, we introduce a new library NegMAS-RL that
 implements the main ideas introduced in the tutorial and allows the
 participants to easily reproduce state-of-the-art solutions and introduce new
 ones. We are preparing to open-source this library and it will be available on
-[GitHub](https://github.com/yasserfarouk/negmas-rl){:target="_blank"} and PyPi by April 2025.
+[GitHub](https://github.com/yasserfarouk/negmas-rl) and PyPi by April 2025.
 
 ## Detailed Outline
 
-* **Introduction to Automated Negotiation (55min)** This part of the tutorial introduces automated negotiation, the ANAC competition. The NegMAS [\[yasser19negmas\]](https://link.springer.com/chapter/10.1007/978-981-16-0471-3_4){:target="_blank"} library is used throughout to showcase the concepts introduced. The main goal here is to introduce the automated negotiation problem in terms understandable to researchers with background in machine learning, reinforcement learning and related disciplines without prior knowledge of game-theory.
+* **Introduction to Automated Negotiation (55min)** This part of the tutorial introduces automated negotiation, the ANAC competition. The NegMAS [\[yasser19negmas\]](https://link.springer.com/chapter/10.1007/978-981-16-0471-3_4) library is used throughout to showcase the concepts introduced. The main goal here is to introduce the automated negotiation problem in terms understandable to researchers with background in machine learning, reinforcement learning and related disciplines without prior knowledge of game-theory.
     * **The Negotiation Problem (15min)** Different definitions of the negotiation problem, negotiation protocol, main differences between negotiations and auctions, and how to read a negotiation plot. We use NegMAS for the hands-on component.
     * **Classic Results (15min)** Introduces Nash bargaining problem, Rubinstein's protocol, and concepts of fairness in negotiation including the Nash bargaining solution, Kalai and Kalai-Smorodonisky solutions.
     * **Anatomy of an Agent (10min)** Uses the BOA (bidding-opponent modeling-acceptance) framework to define the building blocks of a negotiating agent.
